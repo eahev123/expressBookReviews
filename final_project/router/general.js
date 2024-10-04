@@ -71,7 +71,7 @@ public_users.get('/author/:author',function (req, res) {
     .then((filteredBooks) => res.send(filteredBooks));
 });
 
-//  Task 4 & Task 12
+//  Task 4 & Task 13
 //  Get all books based on title
 public_users.get('/title/:title',function (req, res) {
     const title = req.params.title;
@@ -81,7 +81,7 @@ public_users.get('/title/:title',function (req, res) {
     .then((filteredBooks) => res.send(filteredBooks));
 });
 
-//  Task 5 & Task 13
+//  Task 5 & Task 14
 //  Get book review
 public_users.get('/review/:isbn',function (req, res) {
     const isbn = req.params.isbn;
