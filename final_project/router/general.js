@@ -81,7 +81,7 @@ public_users.get('/title/:title',function (req, res) {
     .then((filteredBooks) => res.send(filteredBooks));
 });
 
-//  Task 5 & Task 14
+//  Task 5
 //  Get book review
 public_users.get('/review/:isbn',function (req, res) {
     const isbn = req.params.isbn;
